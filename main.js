@@ -8,4 +8,4 @@ let lavoro = "studentessa";
 
 let msg = "Mi chiamo " + nome + ", ho " + miaEta + " anni e sono una " + lavoro;
 
-console.log(msg);
+document.getElementById("messaggio").textContent = msg;
